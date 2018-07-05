@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "240082423391",
+    "firebase_url": "https://myfirebasedemoapp-9f056.firebaseio.com",
+    "project_id": "myfirebasedemoapp-9f056",
+    "storage_bucket": "myfirebasedemoapp-9f056.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240082423391:android:212f95d1614f0fdd",
+        "android_client_info": {
+          "package_name": "com.example.sahilbansal.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240082423391-hm75pv9vjmobpoedkp60apto7hkojd29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sahilbansal.mychat",
+            "certificate_hash": "753a6ae634d5630cdcd135cba9c0775a839d18e3"
+          }
+        },
+        {
+          "client_id": "240082423391-4pqmm3uia5v7eo18tcetl66ap8pr13tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1d7x6OiuNP65mXtbtZVs2R7yNHa_zkz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240082423391-4pqmm3uia5v7eo18tcetl66ap8pr13tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

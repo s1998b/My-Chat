@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#413f3f"
+    tools:context=".profileactivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="237dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/images" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Display User name "
+        android:textColor="#f9f7f7"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="219dp"
+        android:text="Display User status "
+        android:textColor="#f9f7f7"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/sendrequest"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="#cc1010"
+        android:text="Send Friend Request"
+        android:textColor="#f9f7f7"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/declinerequest"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#cc1010"
+        android:text="Decline Friend Request"
+        android:textColor="#f9f7f7"
+        android:textSize="15dp" />
+
+</RelativeLayout>

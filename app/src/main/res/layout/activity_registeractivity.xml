@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context="com.example.sahilbansal.mychat.registeractivity">
+<include layout="@layout/app_toolbar_layout"
+    android:id="@+id/registertoolbar"></include>
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242dp"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textMultiLine"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/register_name"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textMultiLine|textEmailAddress"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/register_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/register_email"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textMultiLine|textPassword"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/register_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Register Here"
+        android:background="#800000"
+        android:textSize="20dp"
+        android:textColor="#fcfbfb"/>
+</RelativeLayout>
